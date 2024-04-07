@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicle_For_Company_Field_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+Vehicle_For_Company__c = true,
+OR(
+ISBLANK(Company),
+ISBLANK(EIN__c)
+)
+)</errorConditionFormula>
+    <errorMessage>The company name and the EIN must be provided if the vehicle is planned to be purchased for the company.</errorMessage>
+</ValidationRule>

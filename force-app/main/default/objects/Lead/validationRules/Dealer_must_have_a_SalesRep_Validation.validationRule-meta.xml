@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dealer_must_have_a_SalesRep_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT( ISBLANK( Dealer__c) ) 
+ &amp;&amp;
+ ISBLANK( Dealer__r.Sales_Representative__r.Id )</errorConditionFormula>
+    <errorDisplayField>Dealer__c</errorDisplayField>
+    <errorMessage>The Selected Dealer does not have a Sales Representative assigned. Therefore a Lead can not be assigned to the Dealer. A Sales Representative should be assigned to the Dealer first!!!</errorMessage>
+</ValidationRule>

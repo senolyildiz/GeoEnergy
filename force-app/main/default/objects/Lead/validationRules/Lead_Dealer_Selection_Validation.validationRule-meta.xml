@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Dealer_Selection_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+     NOT(ISBLANK(Dealer__c)),
+
+      ISBLANK( TEXT(State__c) ) 
+    )</errorConditionFormula>
+    <errorDisplayField>Dealer__c</errorDisplayField>
+    <errorMessage>Dealer can not be chosen, unless  State is chosen</errorMessage>
+</ValidationRule>

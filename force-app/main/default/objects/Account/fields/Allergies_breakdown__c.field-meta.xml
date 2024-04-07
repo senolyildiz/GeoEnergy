@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allergies_breakdown__c</fullName>
+    <externalId>false</externalId>
+    <label>Allergies breakdown</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Milk.</fullName>
+                <default>false</default>
+                <label>Milk.</label>
+            </value>
+            <value>
+                <fullName>Eggs</fullName>
+                <default>false</default>
+                <label>Eggs</label>
+            </value>
+            <value>
+                <fullName>Fish (e.g., bass, flounder, cod)</fullName>
+                <default>false</default>
+                <label>Fish (e.g., bass, flounder, cod)</label>
+            </value>
+            <value>
+                <fullName>Crustacean shellfish (e.g., crab, lobster, shrimp)</fullName>
+                <default>false</default>
+                <label>Crustacean shellfish (e.g., crab, lobster, shrimp)</label>
+            </value>
+            <value>
+                <fullName>Tree nuts (e.g., almonds, walnuts, pecans)</fullName>
+                <default>false</default>
+                <label>Tree nuts (e.g., almonds, walnuts, pecans)</label>
+            </value>
+            <value>
+                <fullName>Peanuts</fullName>
+                <default>false</default>
+                <label>Peanuts</label>
+            </value>
+            <value>
+                <fullName>Wheat</fullName>
+                <default>false</default>
+                <label>Wheat</label>
+            </value>
+            <value>
+                <fullName>Soybeans</fullName>
+                <default>false</default>
+                <label>Soybeans</label>
+            </value>
+            <value>
+                <fullName>Cats</fullName>
+                <default>false</default>
+                <label>Cats</label>
+            </value>
+            <value>
+                <fullName>Dogs</fullName>
+                <default>false</default>
+                <label>Dogs</label>
+            </value>
+            <value>
+                <fullName>Rabbits</fullName>
+                <default>false</default>
+                <label>Rabbits</label>
+            </value>
+            <value>
+                <fullName>Guinea pigs</fullName>
+                <default>false</default>
+                <label>Guinea pigs</label>
+            </value>
+            <value>
+                <fullName>Hamsters</fullName>
+                <default>false</default>
+                <label>Hamsters</label>
+            </value>
+            <value>
+                <fullName>Penicillin and related antibiotics</fullName>
+                <default>false</default>
+                <label>Penicillin and related antibiotics</label>
+            </value>
+            <value>
+                <fullName>Antibiotics containing sulfonamides (sulfa drugs)</fullName>
+                <default>false</default>
+                <label>Antibiotics containing sulfonamides (sulfa drugs)</label>
+            </value>
+            <value>
+                <fullName>Anticonvulsants</fullName>
+                <default>false</default>
+                <label>Anticonvulsants</label>
+            </value>
+            <value>
+                <fullName>Aspirin</fullName>
+                <default>false</default>
+                <label>Aspirin</label>
+            </value>
+            <value>
+                <fullName>Ibuprofen</fullName>
+                <default>false</default>
+                <label>Ibuprofen</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

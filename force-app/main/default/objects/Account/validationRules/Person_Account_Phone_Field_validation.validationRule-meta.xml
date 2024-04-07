@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Person_Account_Phone_Field_validation</fullName>
+    <active>true</active>
+    <description>As a Sales Representative,
+I want to be sure that Person Account Phone field is not empty if email communication is opted out by customer.
+So that I can be sure that the remaining commutation channel is functional.</description>
+    <errorConditionFormula>ISBLANK( Phone )&amp;&amp;
+PersonHasOptedOutOfEmail</errorConditionFormula>
+    <errorDisplayField>PersonHasOptedOutOfEmail</errorDisplayField>
+    <errorMessage>The Person Account Phone field cannot be left empty if email communication is opted out</errorMessage>
+</ValidationRule>

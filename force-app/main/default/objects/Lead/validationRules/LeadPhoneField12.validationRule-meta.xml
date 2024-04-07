@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeadPhoneField12</fullName>
+    <active>true</active>
+    <description>Lead Phone field is not empty if email communication is opted out by customer</description>
+    <errorConditionFormula>HasOptedOutOfEmail &amp;&amp; isblank(Phone)</errorConditionFormula>
+    <errorDisplayField>HasOptedOutOfEmail</errorDisplayField>
+    <errorMessage>Lead Phone field is not empty if email communication is opted out by customer</errorMessage>
+</ValidationRule>

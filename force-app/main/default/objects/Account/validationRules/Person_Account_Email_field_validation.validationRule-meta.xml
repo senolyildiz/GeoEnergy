@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Person_Account_Email_field_validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>IsPersonAccount 
+    &amp;&amp;
+PersonDoNotCall 
+    &amp;&amp;
+ ISBLANK( PersonEmail )</errorConditionFormula>
+    <errorMessage>Email field must be populated if phone communication is opted out.</errorMessage>
+</ValidationRule>

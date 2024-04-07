@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Body_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Body Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sedan</fullName>
+                <default>false</default>
+                <label>Sedan</label>
+            </value>
+            <value>
+                <fullName>Coupe</fullName>
+                <default>false</default>
+                <label>Coupe</label>
+            </value>
+            <value>
+                <fullName>Hatchback 3-door</fullName>
+                <default>false</default>
+                <label>Hatchback 3-door</label>
+            </value>
+            <value>
+                <fullName>Hatchback 5-door</fullName>
+                <default>false</default>
+                <label>Hatchback 5-door</label>
+            </value>
+            <value>
+                <fullName>Station Wagon</fullName>
+                <default>false</default>
+                <label>Station Wagon</label>
+            </value>
+            <value>
+                <fullName>Wagon, SUV</fullName>
+                <default>false</default>
+                <label>Wagon, SUV</label>
+            </value>
+            <value>
+                <fullName>Minivan</fullName>
+                <default>false</default>
+                <label>Minivan</label>
+            </value>
+            <value>
+                <fullName>Pickup Truck</fullName>
+                <default>false</default>
+                <label>Pickup Truck</label>
+            </value>
+            <value>
+                <fullName>Coupe,</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Coupe,</label>
+            </value>
+            <value>
+                <fullName>Hatchback 3-door,</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hatchback 3-door,</label>
+            </value>
+            <value>
+                <fullName>Hatchback 5-door,</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hatchback 5-door,</label>
+            </value>
+            <value>
+                <fullName>Minivan,</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Minivan,</label>
+            </value>
+            <value>
+                <fullName>SUV,</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SUV,</label>
+            </value>
+            <value>
+                <fullName>Sedan,</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sedan,</label>
+            </value>
+            <value>
+                <fullName>Station Wagon,</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Station Wagon,</label>
+            </value>
+            <value>
+                <fullName>Wagon,</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wagon,</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

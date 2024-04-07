@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engine_Capacity_cc_c__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>api name: Engine_Capacity_cc__c</inlineHelpText>
+    <label>Engine Capacity(cc)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Up to 1000</fullName>
+                <default>false</default>
+                <label>Up to 1000</label>
+            </value>
+            <value>
+                <fullName>1000 to 1500</fullName>
+                <default>false</default>
+                <label>1000 to 1500</label>
+            </value>
+            <value>
+                <fullName>1500 to 1800</fullName>
+                <default>false</default>
+                <label>1500 to 1800</label>
+            </value>
+            <value>
+                <fullName>1800 to 2000</fullName>
+                <default>false</default>
+                <label>1800 to 2000</label>
+            </value>
+            <value>
+                <fullName>2000 to 2500</fullName>
+                <default>false</default>
+                <label>2000 to 2500</label>
+            </value>
+            <value>
+                <fullName>Above 2500</fullName>
+                <default>false</default>
+                <label>Above 2500</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

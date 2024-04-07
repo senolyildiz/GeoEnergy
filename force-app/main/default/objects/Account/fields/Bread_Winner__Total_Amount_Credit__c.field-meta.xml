@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bread_Winner__Total_Amount_Credit__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Total Amount Credited is sum of Amount Credited field in related Invoices. Amount Credited field in Invoice is the total amount allocated to Invoice via Credit Notes, Over Payments and Pre Payments</description>
+    <externalId>false</externalId>
+    <label>Total Amount Credited</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

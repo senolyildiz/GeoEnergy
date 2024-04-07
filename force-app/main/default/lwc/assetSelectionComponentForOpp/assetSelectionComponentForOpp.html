@@ -1,0 +1,14 @@
+<!-- sldsValidatorIgnore -->
+<!-- sldsValidatorIgnoreNextLine -->
+<template>
+  <lightning-card title="Choose Assets to link to this Opportunity" icon-name="standard:asset_object">
+    <div class="slds-p-around_medium">
+      <template if:true={availableAssets}>
+        <lightning-datatable key-field="id" data={availableAssets} columns={columns}>
+        </lightning-datatable>
+      </template>
+      <lightning-button class="slds-align_absolute-center slds-m-around_medium" variant="brand" label="Link Selection"
+        onclick={linkAssets}></lightning-button>
+    </div>
+  </lightning-card>
+</template>

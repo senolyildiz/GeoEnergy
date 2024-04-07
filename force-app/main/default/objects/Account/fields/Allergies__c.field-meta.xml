@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allergies__c</fullName>
+    <externalId>false</externalId>
+    <label>Allergies</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Food Allergy</fullName>
+                <default>false</default>
+                <label>Food Allergy</label>
+            </value>
+            <value>
+                <fullName>Pet Allergy</fullName>
+                <default>false</default>
+                <label>Pet Allergy</label>
+            </value>
+            <value>
+                <fullName>Drug Allergy</fullName>
+                <default>false</default>
+                <label>Drug Allergy</label>
+            </value>
+            <value>
+                <fullName>Pollen Allergy</fullName>
+                <default>false</default>
+                <label>Pollen Allergy</label>
+            </value>
+            <value>
+                <fullName>Latex Allergy</fullName>
+                <default>false</default>
+                <label>Latex Allergy</label>
+            </value>
+            <value>
+                <fullName>Mold Allergy</fullName>
+                <default>false</default>
+                <label>Mold Allergy</label>
+            </value>
+            <value>
+                <fullName>Insect and Pest Allergy</fullName>
+                <default>false</default>
+                <label>Insect and Pest Allergy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
